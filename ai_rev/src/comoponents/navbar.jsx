@@ -14,7 +14,7 @@ function Navbar() {
     <nav className='bg-white/80 backrob-blur-md shadow-sm fixed w-full z-50'>
       <div className='app-container flex justify-between items-center h-16'>
         {/* logo */ }
-        <span className="text-2xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent ">AI Revolution</span>
+        <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent ">AI Revolution</span>
         {/* desktop links */}
         <div className="hidden md:flex item-center space-x-8">
           {/*make loop for links */}
