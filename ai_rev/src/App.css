@@ -35,21 +35,8 @@ html {
 
 
   /* ---------- Cards ---------- */
-  .ai-type-card {
-    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1;
-  }
 
-  .ai-type-card-image {
-    @apply h-48 w-full bg-gradient-to-r flex items-center justify-center;
-  }
 
-  .ai-type-card-icon {
-    @apply w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary mr-3;
-  }
-
-  .ai-type-card-tag {
-    @apply inline-block px-3 py-1 text-xs font-semibold rounded-full;
-  }
 
   /* Benefit cards */
   .benefit-card {
