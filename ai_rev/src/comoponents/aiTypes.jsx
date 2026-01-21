@@ -75,7 +75,7 @@ function AiTypes() {
               <p className="mt-2 text-gray-600">{type.description}</p>
               <div className="mt-4 flex items-center gap-x-2">
                 {type.tags.map((tag)=>(
-                  <span key={tag.text} className={`inline-block px-3 py-1 text-xs font-semibold rounded-full ${tagColors[tagColors]}`}>
+                  <span key={tag.text} className={`inline-block px-3 py-1 text-xs font-semibold rounded-full ${tagColors[tag.color]}`}>
                     {tag.text}
                   </span>
                 ))}
