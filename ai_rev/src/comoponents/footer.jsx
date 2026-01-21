@@ -98,7 +98,7 @@ function Footer() {
               <input type="email" placeholder="Your email" className="px-4 py-2 rounded-lg bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"/>
               <button className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg font-medium transition whitespace-nowrap">Subscribe</button>
             </form>
-            <p className="mt-2 text-xs text-gray-500">We respect your privacy. Undubscribe at any time.</p>
+            <p className="mt-2 text-xs text-gray-500">We respect your privacy/ Undubscribe at any time.</p>
           </div>
         </div>
 
